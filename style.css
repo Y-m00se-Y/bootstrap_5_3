@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap 5.3</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="text-justify jumbotron">
+		<div class="container">
+			<h1>Lorem ipsum dolor sit amet,<br><small>consectetur adipiscing elit.</small></h1>
+			<button class="btn btn-primary">Submit</button>
+		</div>
+	</section>
+	<section class="gallery">
+		<div class="container">
+			<h2 class="text-justify">Gallery</h2>
+			<div class="row">
+				<div class="col-md-8 col-md-2-offset"
+					<p class="text-justify">Zadanie: Prosta strona
+					Twoim zadaniem będzie zbudowanie prostej stronki z małym formularzem kontaktowym i RWD przy wykorzystaniu omówionych elementów i klas pomocniczych.</p>
+					<p>Dodaj do strony jedną sekcję. Wyśrodkuj tekst, dodając odpowiednie klasy. Wewnątrz stwórz nagłówek pierwszego poziomu z podtytułem wewnątrz elementu &#60;small&#62;.</p>
+					<p>Do sekcji dodaj przycisk o kolorze niebieskim.
+					Poniżej dodaj jedną sekcję, a w niej nagłówek. Następnie stwórz galerię złożoną z 4 obrazków wewnątrz tego gridu. Niech każdy obrazek będzie responsywny. Dodaj odpowiednie klasy zmieniające szerokość elementu na mniejszych ekranach, tak by na tabletach były 2 obrazki w wierszu, a na smartfonach jeden.</p>
+					<p>Poniżej dodaj tabelkę. Niech składa się z nagłówka &#60;thead&#62; oraz ciała &#60;tbody&#62;. Wewnątrz dodaj kilka rzędów (co najmniej 3).
+					Stwórz formularz kontaktowy. Musi składać się z co najmniej dwóch pól tekstowych oraz pola na treść wiadomości. Dodaj odpowiednie podpisy do każdego elementu. Nie zapomnij o przycisku "Submit"!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
