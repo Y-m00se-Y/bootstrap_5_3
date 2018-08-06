@@ -1,35 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Bootstrap 5.3</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap 5.3</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<section class="text-justify jumbotron">
-		<div class="container">
+	<section class="jumbotron text-center">
+		<div class="container-fluid">
 			<h1>Lorem ipsum dolor sit amet,<br><small>consectetur adipiscing elit.</small></h1>
 			<button class="btn btn-primary">Submit</button>
 		</div>
 	</section>
-	<section class="gallery">
-		<div class="container">
-			<h2 class="text-justify">Gallery</h2>
+	<section class="gallery text-center">
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-8 col-md-2-offset">
-					<p class="text-justify">Zadanie: Prosta strona
-					Twoim zadaniem będzie zbudowanie prostej stronki z małym formularzem kontaktowym i RWD przy wykorzystaniu omówionych elementów i klas pomocniczych.</p>
-					<p>Dodaj do strony jedną sekcję. Wyśrodkuj tekst, dodając odpowiednie klasy. Wewnątrz stwórz nagłówek pierwszego poziomu z podtytułem wewnątrz elementu &#60;small&#62;.</p>
-					<p>Do sekcji dodaj przycisk o kolorze niebieskim.
-					Poniżej dodaj jedną sekcję, a w niej nagłówek. Następnie stwórz galerię złożoną z 4 obrazków wewnątrz tego gridu. Niech każdy obrazek będzie responsywny. Dodaj odpowiednie klasy zmieniające szerokość elementu na mniejszych ekranach, tak by na tabletach były 2 obrazki w wierszu, a na smartfonach jeden.</p>
-					<p>Poniżej dodaj tabelkę. Niech składa się z nagłówka &#60;thead&#62; oraz ciała &#60;tbody&#62;. Wewnątrz dodaj kilka rzędów (co najmniej 3).
-					Stwórz formularz kontaktowy. Musi składać się z co najmniej dwóch pól tekstowych oraz pola na treść wiadomości. Dodaj odpowiednie podpisy do każdego elementu. Nie zapomnij o przycisku "Submit"!</p>
+				<div class="col-md-12">
+					<h2><strong>Gallery</strong></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="item col-md-3 col-sm-6 col-xs-12">
+					<div class="wrapper">
+						<div class="item__inner">
+							<div class="item__photo">
+								<img src="http://51.38.131.156/pic/gal_boot/gal_1.jpg" alt="UPS!!!">
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="item col-md-3 col-sm-6 col-xs-12">
+					<div class="wrapper">
+						<div class="item__inner">
+							<div class="item__photo">
+								<img src="http://51.38.131.156/pic/gal_boot/gal_2.jpg" alt="UPS!!!">
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="item col-md-3 col-sm-6 col-xs-12">
+					<div class="wrapper">
+						<div class="item__inner">
+							<div class="item__photo">
+								<img src="http://51.38.131.156/pic/gal_boot/gal_3.jpg" alt="UPS!!!">
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="item col-md-3 col-sm-6 col-xs-12">
+					<div class="wrapper">
+						<div class="item__inner">
+							<div class="item__photo">
+								<img src="http://51.38.131.156/pic/gal_boot/gal_4.jpg" alt="UPS!!!">
+							</div>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>
+	</section>
+	<section class="tbl text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2><strong>Table</strong></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<table class="table table-striped table-bordered">
+						<thead>
+					    	<tr>
+					    		<th>Name</th>
+					    		<th>Surname</th>
+					    		<th>e-mail</th>
+					    	</tr>
+					    </thead>
+					    <tbody>
+					    	<tr>
+					    		<td>Jan</td>
+					    		<td>Kowalski</td>
+					    		<td>jan@example.com</td>
+					    	</tr>
+					      	<tr>
+						        <td>Sebastian</td>
+						        <td>Gałecki</td>
+						        <td>sebastian@example.com</td>
+					    	</tr>
+					    	<tr>
+						        <td>Mateusz</td>
+						        <td>Nowak</td>
+						        <td>mati@example.com</td>
+					    	</tr>
+					    </tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="frm text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2><strong>Form</strong></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<form>
+						<label for="exampleInputEmai1">Email</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+						<p>Imię:</p>
+						<input type="text" name="name" placeholder="Jan">
+						<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+						<button type="submit" class="btn">Submit</button>
+					</form>
+				</div>
+			</div>
 	</section>
 </body>
 </html>
